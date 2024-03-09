@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="project02.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RareRides Autos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header-sub">
+        <nav>
+            <a href="index.html"><img src="C:/Users/DELL/Downloads/logo.jpg" alt="" width="300px" height="300px"> <h1>RareRides Autos</h1></a>
+            <div class="nav-links" id="navLinks">
+                <div class="c">
+                <i class="fa fa-times " onclick="hideMenu()"></i></div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="models.html">MODELS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div><div class="a">
+            <i class="fa fa-bars " onclick="showMenu()"></i></div>
+        </nav>
+        <h2>ABOUT US</h2>
+        </section>
+    <!----------Code for about us-------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the Biggest Brand in the World</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis error vitae repellendus sint repellat, non id dignissimos dolorem temporibus accusantium repudiandae modi totam et earum consequuntur eius facilis! Voluptatibus temporibus consequuntur sunt cumque velit quasi ab vel hic obcaecati ex aut assumenda excepturi expedita minima reprehenderit, non ipsum nulla aliquam?</p>
+                <a href="" class="hero1">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="C:/Users/DELL/Downloads/c5.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <!----------Code for footer-------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam modi doloremque quidem <br> nesciunt adipisci quis possimus repudiandae, reiciendis eum.</p>
+    <div class="icon">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>Made by<i class="fa fa-heart-o" aria-hidden="true"></i>Mr.Ahmad Khan</p>
+</section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
