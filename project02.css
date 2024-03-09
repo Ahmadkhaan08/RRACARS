@@ -11,7 +11,7 @@
 .header{
     height: 100vh;
      width: 100%;
-     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(C:/Users/DELL/Downloads/a.jpg);
+     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(C:/Users/DELL/Downloads/a.webp);
    background-position: center;
  background-size: cover;
  position: relative;
@@ -291,7 +291,7 @@ color: gold;
 .cta{
     width: 80%;
     margin: 100px auto;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(C:/Users/DELL/Downloads/b1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(C:/Users/DELL/Downloads/b1.webp);
     text-align: center;
     padding:50px;
     background-position: center;
@@ -353,7 +353,7 @@ color: gold;
 .header-sub{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(C:/Users/DELL/Downloads/a.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(C:/Users/DELL/Downloads/a.webp);
     background-position: center;
     text-align: center;
     background-size: cover;
